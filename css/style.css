@@ -44,7 +44,6 @@ body{
     .container{
         max-width: 1000px;
     }
-    
 }
 .mynav{
     background-color: #0A192F; 
@@ -193,7 +192,6 @@ h1{
 .projectcard-web{
     background-color: #172A45;
     margin: 10px 0;
-    height: 200px;
 }
 
 .projectcard{
@@ -213,7 +211,7 @@ h1{
 
 .procardul li a{
     width: 30px;
-    height: 30px;
+    min-height: 30px;
     line-height: 30px;
     font-size: 20px;
     color: #8892B0;
@@ -276,4 +274,8 @@ img-card{
     left: 50%;
     margin-left: -200px;
     position: absolute;
+  }
+
+  .pointer{
+    cursor: pointer;
   }
